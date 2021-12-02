@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto&family=Roboto+Mono&family=Rubik:wght@500&display=swap");
+
+/* pantalla pequeña */
+
+@media (min-width: 198px) {
+  .mostrador {
+    width: 100%;
+    margin: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .card {
+    margin: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .card-img-top {
+    height: 13em;
+  }
+
+  .container {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* pantalla media */
+@media (min-width: 700px) {
+}
+
+/* pantalla grande */
+@media (min-width: 1200px) {
+  .mostrador {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
